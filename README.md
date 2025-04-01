@@ -7,3 +7,7 @@ The Simulink file (HBC_PHY_Simulink.slx) is was Simulink implementation of the H
 HBC Channel Filters: 
 
 The Matlab script in, "ChannelModelsFilters", uses the Comsol channel simulation data to construct Matlab filters that mimic the channel response of the HBC channel. Some additonal code is used to compare other filter topologies to ensure the optimal (lowest error) filter design is selected. This ensures the Matlab filter equivalent is consistent with the Comsol channel responses. 
+
+Monte Carlo Simulations: 
+
+This Matlab script uses the Matlab implementations of the HBC PHY layer along with transmitter and receiver functions to simulate transmission of a large number of input bits across the channels.
